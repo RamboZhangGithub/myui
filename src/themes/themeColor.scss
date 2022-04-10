@@ -1,0 +1,44 @@
+/* 主题色变量快速检索，仅提供主题色 scss 变量 */
+$theme-color-0:     var(--theme-color-0) !default;
+$theme-color-1:     var(--theme-color-1) !default;
+$theme-color-2:     var(--theme-color-2) !default;
+$theme-color-3:     var(--theme-color-3) !default;
+$theme-color-4:     var(--theme-color-4) !default;
+$theme-color-5:     var(--theme-color-5) !default;
+$theme-color-6:     var(--theme-color-6) !default;
+$theme-color-7:     var(--theme-color-7) !default;
+$theme-color-8:     var(--theme-color-8) !default;
+$theme-color-9:     var(--theme-color-9) !default;
+// 特例色，纯白
+$theme-color-10:    var(--theme-color-10) !default;
+
+$theme-color-n1:    var(--theme-color-n1) !default;        // 主题深色 -1
+$theme-color-n2:    var(--theme-color-n2) !default;        // 主题深色 -2
+$theme-color-ys1:   var(--theme-color-ys1) !default;       // 浅色主题深色 s1
+$theme-color-ys2:   var(--theme-color-ys2) !default;       // 浅色主题深色 s2
+
+$theme-color-t:     var(--theme-color-t) !default;         /* 重要文字 */      
+$theme-color-t1:    var(--theme-color-t1) !default;        /* 画板辅助线 */
+$theme-color-t3:    var(--theme-color-t3) !default;        /* 提示、不可操作、标签角标、按钮边线 */
+$theme-color-t5:    var(--theme-color-t5) !default;        /* 辅助文字 */
+$theme-color-t7:    var(--theme-color-t7) !default;        /* 常规文字 */
+
+$theme-color-a1:    var(--theme-color-a1) !default;        // 浅色主题文字 a1
+
+$theme-color-s1-0:  var(--theme-color-s1-0) !default;      // 主题补充色-保存
+$theme-color-s1-1:  var(--theme-color-s1-1) !default;      // 主题补充色-保存
+$theme-color-s1-2:  var(--theme-color-s1-2) !default;      // 主题补充色-保存
+$theme-color-s2-0:  var(--theme-color-s2-0) !default;      // 主题补充色-发布
+$theme-color-s2-1:  var(--theme-color-s2-1) !default;      // 主题补充色-发布
+$theme-color-s2-2:  var(--theme-color-s2-2) !default;      // 主题补充色-发布
+
+$theme-color-c:     var(--theme-color-c) !default;         // 主题对比色-提示线、运行按钮
+$theme-color-c1:    var(--theme-color-c1) !default;        // 主题对比色-提示线、运行按钮
+$theme-color-c2:    var(--theme-color-c2) !default;        // 主题对比色-提示线、运行按钮
+
+
+  /* 黄色用于区别其他颜色的别名*/
+$theme-color-y6:    var(--theme-color-y6) !default;        // 该颜色用于菜单hover，区别于 6
+$theme-color-yt3:   var(--theme-color-yt3) !default;       // 该颜色用于次级按钮边线 CUI-button-secondary，区别于 t3
+$theme-color-y10:   var(--theme-color-y10) !default;       // 该颜色用于主要按钮文字色 CUI-button-primary，区别于 grey-30
+$theme-color-grey-y30:   var(--theme-color-grey-30) !default;  // 该颜色用于主要按钮禁用背景色、边线 CUI-button-primary disabled，区别于 grey-10

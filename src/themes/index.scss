@@ -1,0 +1,10 @@
+// 所有变量、主题统一引用入口
+@use './supColor.scss' as *;
+@use './themeColor.scss' as *;
+@use './themeMixin.scss' as *;
+@use './blue/index.scss' as *;
+@use './yellow/index.scss' as *;
+@use './violet/index.scss' as *;
+@use './green/index.scss' as *;
+@use './orange/index.scss' as *;
+@use './pink/index.scss' as *;
